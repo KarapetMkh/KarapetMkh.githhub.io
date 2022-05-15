@@ -1,0 +1,296 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+header{
+	height: 120vh;
+	background:url("../images/2333.jpg") #926C00 bottom center no-repeat;
+	background-size: cover;
+}
+.top_section{
+	height: 100px;
+	background: #4E5BFC;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	color: #A49393;
+	margin-left: 50px;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+.top_menu{
+	width: 450px;
+	height: 100%;
+}
+.top_menu ul{
+	width: 35%;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.top_menu ul li {
+	list-style: none;
+}
+.top_menu ul li 	a{
+	color: #A49393;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+.top_menu ul li a:hover{
+	text-decoration: underline;
+}
+.site_name{
+	margin-top: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFE400;
+	font-size: 4em;
+}
+.order_link{
+	margin-top:200px;
+	text-align: center;
+}
+.order_link a{
+	color: #67595E;
+	font-size:2em;
+	text-transform: uppercase; 
+	padding:20px 30px;
+	background: #EEEDE7;
+	text-decoration: none;
+}
+main{
+	height: none;
+}
+section{
+	display: flex;
+	height: 50%;
+}
+.bg_grey{
+	background: #efefef;
+}
+.side_text_position{
+ text-align: center;
+ }
+ .image_position{
+	display: flex;
+	align-items: center;
+}
+.right{
+	text-align: right;
+}
+ .side_image1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+  .side_image2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+}
+.side_image{
+    height: 20%;
+	width: 30%;
+}
+.aziz2{
+	height: 100%;
+	width: 200%;
+    
+}
+.aziz5{
+ 	color: #67595E;
+	font-size:2em;
+	text-transform: uppercase; 
+	padding:20px 30px;
+	background: #EEEDE7;
+	text-decoration: none;
+}
+.nkar1{
+	height: 70%;
+	width: 70%;
+	text-align: right;
+}
+.section_text5{
+	font-size: 2.7em;
+}
+.section_text8{
+ text-align: center;
+ font-size: 1.3em;
+}
+.text65{
+	text-align: center;
+	font-size: 2.5em;
+}
+.nkar7{
+	text-align: center;
+}
+.side1_text_position{
+	align-items: flex-end; 
+	align-items: center;
+	font-size: 2.0em;
+	padding: 100px;
+}
+.mer_masin{
+ font-size: 2.0em;
+ text-transform: capitalize;
+ text-align: center;
+}
+.nkar2{
+	text-align: center;
+	font-size: 2.0em;
+}
+.nkarr{
+	width: 100%;
+}
+.text44{
+	font-size: 2.5em;
+    align-items: center;
+}
+.text4{
+	font-size: 2.0em;
+}
+.text2{
+	font-size: 2.0em;
+}
+.N44{
+size: a3;
+}
+.tex445{
+	font-size: 1.5em;
+}
+.nkarrr{
+	width: 40%;
+}
+.section_text{
+	font-size: 1.5em;
+	padding: 100px;
+}
+.text33{
+		font-size: 2.0em;
+}
+.text3{
+	font-size: 2.5em;
+}
+.section_images{
+	height: 50%;
+	width: 50%;
+object-fit: contain;
+}
+footer{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	background: #121212;
+}
+.author{
+	text-transform: capitalize;
+	font-size: 2em;
+	color: #fff;
+	line-height: 50px;
+}
+.header{
+	height: 50vh;
+	background: url("../images/776.jpg");
+}
+.content{
+	height: 100%;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.content-side{
+	width: 45%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+input[type="text"]{
+width: 300px;
+padding: 10px;
+border: none;
+border-bottom: 2px solid #121212;
+font-size: 1.2em;
+color: #121212;
+outline: none;
+}
+input::placeholder{
+	font-size: 1em;
+	color: #121212;
+	text-transform: capitalize;
+}
+input,textarea{
+	margin: 20px;
+}
+textarea{
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	border: 2px solid #121212;
+	font-size: 1.2em;
+	outline: none;
+	resize: none;
+}
+input[type="submit"]{
+	width: 150px;
+	padding: 10px 20px;
+	background: #121212;
+	color: #fff;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+.header{
+	height: 50vh;
+		background: url("../images/00.jpg");
+}
+.one{
+ width: 30px;
+ padding: 30px 40px;
+}
+.section_text1{
+	font-size: 2em;
+	padding: 5px;
+}
+.order_link1 a{
+	text-align: center;
+		align-items: center;
+	justify-content: center;
+	color: #67595E;
+	font-size:2em;
+	text-transform: uppercase; 
+	padding:20px 30px;
+	background: #EEEDE7;
+	text-decoration: none;
+}
+.text8{
+	text-align: left;
+	font-size: 3.3em;
+}
+.nkar8{
+	width: 70%; height: 70%;
+}
+.avelin1{
+	text-align: center;
+	color: #67595E;
+	font-size:2em;
+	text-transform: uppercase;
+	}
+.mov{
+	text-align: center;
+}
